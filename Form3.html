@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,7 +8,7 @@
 </head>
 <body>
 <div id="form">
-    <form>
+    <form id="form-id">
         <div class="form-input">
             <label>Account</label>
             <ul>
@@ -27,9 +27,15 @@
             <div class="date_b">
                 <label>Date of Birth</label>
                 <ul>
-                    <li><input type="text" placeholder="DD"></li>
-                    <li><input type="email" placeholder="MM"></li>
-                    <li><input type="password" placeholder="YYYY"></li>
+                    <li><label>
+                        <input type="text" placeholder="DD">
+                    </label></li>
+                    <li><label>
+                        <input type="email" placeholder="MM">
+                    </label></li>
+                    <li><label>
+                        <input type="password" placeholder="YYYY">
+                    </label></li>
                 </ul>
             </div>
             <div class="gender">
@@ -56,49 +62,61 @@
         <div class="card-input">
             <ul>
                 <i class="bi bi-credit-card"></i>
-            <input type="number" min="0" max="1000" placeholder="Card Number">
+                <label>
+                    <input type="number" min="0" max="1000" placeholder="Card Number">
+                </label>
             </ul>
         </div>
         <div class="card_cvc">
             <div class="cvc">
-                <input type="number" min="0" max="1000" placeholder="Card CVC">
+                <label>
+                    <input type="number" min="0" max="1000" placeholder="Card CVC">
+                </label>
             </div>
             <div class="date_cvc">
-                <select>
-                    <option>January</option>
-                    <option>Ferbruary</option>
-                    <option>March</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>Argust</option>
-                    <option>September</option>
-                    <option>Optorber</option>
-                    <option>November</option>
-                    <option>Demcember</option>
-                </select>
-                <select>
-                    <option>2010</option>
-                    <option>2011</option>
-                    <option>2012</option>
-                    <option>2013</option>
-                    <option>2014</option>
-                    <option>2015</option>
-                    <option>2016</option>
-                    <option>2017</option>
-                    <option>2018</option>
-                    <option>2019</option>
+                <label>
+                    <select>
+                        <option>January</option>
+                        <option>Ferbruary</option>
+                        <option>March</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>Argust</option>
+                        <option>September</option>
+                        <option>Optorber</option>
+                        <option>November</option>
+                        <option>Demcember</option>
+                    </select>
+                </label>
+                <label>
+                    <select>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
 
-                </select>
+                    </select>
+                </label>
             </div>
         </div>
         <div class="content">
             <h3>Terms and Conditions</h3>
         </div>
         <div class="check-box">
+            <label>
                 <input type="checkbox" value="ok">
+            </label>
             <label>I accept the  terms and conditions for signing up to service, and hereby confirm i have read the privacy policy.</label>
         </div>
+        </div>
     </form>
+
 </div>
 
 </body>

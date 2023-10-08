@@ -18,7 +18,7 @@ body{
 }
 
 .form-input label{
-    padding: 30px 20px 20px 20px;
+    /*padding: 30px 20px 20px 20px;*/
     color: #7ED321;
     font-weight: bold;
 }
@@ -54,7 +54,6 @@ body{
     margin: 0;
 }
 .gender label{
-    padding: 10px;
     padding: 30px 20px 20px 20px;
 
 }
@@ -74,6 +73,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 380px;
+    padding-top: 10px;
 }
 .card .btn-payment button{
     width: 100%;
@@ -84,7 +84,9 @@ body{
 .card .btn-payment .credit{
     background-color: #7ED321;
 }
-
+.card label{
+    padding: 10px;
+}
 .card-input input{
     width: 310px;
 }
@@ -105,7 +107,7 @@ body{
     padding: 10px;
 }
 .content h3{
-    font-size: 18px;
+    font-size: 14px;
     color: #7ED321;
 }
 .check-box input {
@@ -115,4 +117,5 @@ body{
 }
 .check-box label{
     padding-left: 0;
+    color: #ccc;
 }
