@@ -1,0 +1,87 @@
+body{
+    font-family: Arial sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-photo/colorful-background-with-watercolor-texture_183912-273.jpg");
+    width: 100%;
+    background-size: 100%;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#login form{
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#form-login{
+    text-align: center;
+    font-size: 20px;
+
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+.input-box {
+    padding: 20px;
+}
+.input-box input{
+    padding: 13px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit{
+    text-align: center;
+}
+.submit button{
+    width: 100px;
+    height: 35px;
+    background-color: #BD59D7;
+    border-radius: 20px;
+    border: none;
+    color: #F8F5F5FF;
+}
+.or_login h3{
+    padding: 20px 0 10px 0;
+    text-align: center;
+    opacity: 0.5;
+    font-weight: normal;
+
+}
+.icon{
+    text-align: center;
+}
+.icon ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.icon ul li{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.icon ul li a{
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgb(0,0,0,0.1);
+}
+.sign_up{
+    padding-top: 30px;
+    text-align: center;
+}
+.sign_up h3{
+    opacity: 0.5;
+    font-weight: normal;
+}
+
